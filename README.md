@@ -3,7 +3,7 @@
 ## Clone
 
 Pour clone : 
-```git clone https://github.com/RisKiki/rendu-reactive-programming-ing3```
+```git clone https://github.com/RisKiki/rendu-reactive-prog.git```
 
 ## Lancer
 
