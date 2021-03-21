@@ -2,13 +2,13 @@
 
 ## Clone
 
-Pour clone : 
+Pour clone : <br />
 ```git clone https://github.com/RisKiki/rendu-reactive-prog.git```
 
 ## Lancer
 
-Pour lancer : docker 
-```docker-compose up -d --build```
+Pour lancer : <br /> 
+```cd rendu-reactive-programming-ing3 && docker-compose up -d --build```
 
 ## Ports
 
