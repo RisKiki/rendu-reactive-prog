@@ -33,3 +33,14 @@ Suppresion d'un todo <br />
 
 Documentation api via swagger <br />
 Visualisation des logs depuis l'ui <br />
+
+
+## Docker
+
+Arrêter les docker : <br />
+```docker stop api```<br />
+```docker stop ui```<br />
+
+Relancer les docker :<br />
+```docker state api```<br />
+```docker state ui```<br />
