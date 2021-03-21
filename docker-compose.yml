@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  api:
+    container_name: api
+    build: 
+      context: ./flask-todo-api
+    ports:
+      - 5000:5000
+  ui:
+      container_name: ui
+      build:
+        context: ./flask-todo-ui
+      volumes:
+        - '.:/app'
+        - '/app/node_modules'
+      ports:
+        - '8080:8080'
